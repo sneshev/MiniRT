@@ -3,18 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sneshev <sneshev@student.42.fr>            +#+  +:+       +#+        */
+/*   By: stefuntu <stefuntu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 17:27:15 by mmisumi           #+#    #+#             */
-/*   Updated: 2025/11/03 18:16:24 by sneshev          ###   ########.fr       */
+/*   Updated: 2025/11/04 18:38:14 by stefuntu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header.h"
 
-int main()
+t_map get_map() {
+	
+}
+
+int main(int argc, char *argv[])
 {
-	int n = ft_atoi("13");
-	printf("%d\n", n);
+	t_map map;
+
+	if (argc != 2)
+		return (1);
+	map = get_map();
+	
 	return 0;
 }
