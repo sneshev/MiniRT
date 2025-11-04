@@ -28,7 +28,7 @@ in a strict order such as:
 
 
 ◦ Light:
-	L	-40.0,50.0,0.0	0.6	10,0,255
+	L	-40.0,50.0,0.0	0.6		10,0,255
 
 	∗ identifier: L
 	∗ x, y, z coordinates of the light point: -40.0,50.0,0.0
@@ -55,7 +55,7 @@ in a strict order such as:
 
 
 ◦ Cylinder:
-	cy	50.0,0.0,20.6	0.0,0.0,1.0	14.2	21.42	10,0,255
+	cy	50.0,0.0,20.6	0.0,0.0,1.0		14.2	21.42	10,0,255
 
 	∗ identifier: cy
 	∗ x, y, z coordinates of the center of the cylinder: 50.0,0.0,20.6
