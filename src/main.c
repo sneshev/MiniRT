@@ -6,14 +6,16 @@
 /*   By: stefuntu <stefuntu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 17:27:15 by mmisumi           #+#    #+#             */
-/*   Updated: 2025/11/04 18:38:14 by stefuntu         ###   ########.fr       */
+/*   Updated: 2025/11/05 13:10:39 by stefuntu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header.h"
 
-t_map get_map() {
-	
+int get_map(t_map *map) {
+	(void)map;
+
+	return (1);
 }
 
 int main(int argc, char *argv[])
@@ -22,7 +24,8 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 		return (1);
-	map = get_map();
-	
-	return 0;
+	if (get_map(&map) == -1)
+		return (1);
+
+	return (0);
 }
